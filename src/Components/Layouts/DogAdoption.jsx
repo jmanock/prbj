@@ -2,7 +2,7 @@ import React from 'react';
 
 const DogAdoption = () =>(
   <div className='container'>
-    <h3>Dog Adoption</h3>
+    <h3 className='text-center'>Dog Adoption</h3>
     <div className='card'>
       <div className='card-body'>
         <p className='card-text'>PRBJ is committed to re-homing and re-habilitationg rescues into furever homes. Should adoption not be right for your life at this time due to your living situation, financial restrictions, breed restrictions, etc., you may wish to look into our Dog 4 a Day program.</p>
@@ -10,7 +10,7 @@ const DogAdoption = () =>(
     </div>
     <div className='card'>
       <div className='card-body'>
-        <h5 className='card-title text-center'>Adoption/Donation Fee:</h5>
+        <h5 className='card-title'>Adoption/Donation Fee:</h5>
         <p className='card-text'>All Pet Rescue By Judy animals are spayed/neutered prior to adoption, micro chipped and up-to-date on then vaccines applicable to their date of intake with PRBJ and respective to their weight and/or age at the time of adoption.</p>
       </div>
     </div>
