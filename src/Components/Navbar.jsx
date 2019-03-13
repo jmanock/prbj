@@ -17,8 +17,8 @@ const Navbar = () =>{
           <li className='nav-item dropdown'>
             <a className='nav-link dropdown-toggle' href='#a' id='navbarDropdownMenuLink' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>Adopt a Pet</a>
             <div className='dropdown-menu' aria-labelledby='navbarDropdownMenuLink'>
-              <a className='dropdown-item' href='#b'>Dog Adoption</a>
-              <a className='dropdown-item' href='#c'>Cat Adoption</a>
+              <Link to='/DogAdoption' className='dropdown-item'>Dog Adoption</Link>
+              <Link to='CatAdoption' className='dropdown-item'>Cat Adoption</Link>
             </div>
           </li>
           <li className='nav-item dropdown'>
