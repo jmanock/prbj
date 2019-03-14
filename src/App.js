@@ -10,6 +10,8 @@ import DogAdoption from './Components/Layouts/DogAdoption';
 import AdoptingOlderPets from './Components/Layouts/AdoptingOlderPets';
 import FosterProgram from './Components/Layouts/FosterProgram';
 import Dog4Day from './Components/Layouts/Dog4Day';
+import Volunteer from './Components/Layouts/Volunteer';
+import Donate from './Components/Layouts/Donate';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import './App.css';
@@ -31,6 +33,8 @@ class App extends Component{
             <Route path='/AdoptingOlderPets' component={AdoptingOlderPets} />
             <Route path='/FosterProgram' component={FosterProgram} />
             <Route path='/Dog4Day' component={Dog4Day} />
+            <Route path='/Volunteer' component={Volunteer} />
+            <Route path='/Donate' component={Donate} />
           </Switch>
         </div>
       </BrowserRouter>

@@ -32,9 +32,8 @@ const Navbar = () =>{
           <li className='nav-item dropdown'>
             <a className='nav-link dropdown-toggle' href='#g' id='navbarDropdownMenuLink' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>Volunteer / Help</a>
             <div className='dropdown-menu' aria-labelledby='navbarDropdownMenuLink'>
-              <a className='dropdown-item' href='#h'>Volunteer</a>
-              <a className='dropdown-item' href='#i'>Volunteer Video</a>
-              <a className='dropdown-item' href='#j'>Donate</a>
+              <Link to='/Volunteer' className='dropdown-item'>Volunteer</Link>
+              <Link to='/Donate' className='dropdown-item'>Donate</Link>
             </div>
           </li>
         </ul>
