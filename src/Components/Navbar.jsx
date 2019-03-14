@@ -18,14 +18,15 @@ const Navbar = () =>{
             <a className='nav-link dropdown-toggle' href='#a' id='navbarDropdownMenuLink' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>Adopt a Pet</a>
             <div className='dropdown-menu' aria-labelledby='navbarDropdownMenuLink'>
               <Link to='/DogAdoption' className='dropdown-item'>Dog Adoption</Link>
-              <Link to='CatAdoption' className='dropdown-item'>Cat Adoption</Link>
+              <Link to='/CatAdoption' className='dropdown-item'>Cat Adoption</Link>
+              <Link to='/AdoptingOlderPets' className='dropdown-item'>Adopting Older Pets</Link>
             </div>
           </li>
           <li className='nav-item dropdown'>
             <a className='nav-link dropdown-toggle' href='#f' id='navbarDropdownMenuLink' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>Foster a Pet</a>
             <div className='dropdown-menu' aria-labelledby='navbarDropdownMenuLink'>
-              <a className='dropdown-item' href='#d'>Dog 4 a day program</a>
-              <a className='dropdown-item' href='#e'>Foster Program</a>
+              <Link to='/Dog4Day' className='dropdown-item'>Dog 4 a Day Program</Link>
+              <Link to='/FosterProgram' className='dropdown-item'>Foster Program</Link>
             </div>
           </li>
           <li className='nav-item dropdown'>

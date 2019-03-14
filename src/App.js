@@ -7,6 +7,9 @@ import Events from './Components/Layouts/Events';
 import HappyTails from './Components/Layouts/HappyTails';
 import CatAdoption from './Components/Layouts/CatAdoption';
 import DogAdoption from './Components/Layouts/DogAdoption';
+import AdoptingOlderPets from './Components/Layouts/AdoptingOlderPets';
+import FosterProgram from './Components/Layouts/FosterProgram';
+import Dog4Day from './Components/Layouts/Dog4Day';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import './App.css';
@@ -25,6 +28,9 @@ class App extends Component{
             <Route path='/HappyTails' component={HappyTails} />
             <Route path='/DogAdoption' component={DogAdoption} />
             <Route path='/CatAdoption' component={CatAdoption} />
+            <Route path='/AdoptingOlderPets' component={AdoptingOlderPets} />
+            <Route path='/FosterProgram' component={FosterProgram} />
+            <Route path='/Dog4Day' component={Dog4Day} />
           </Switch>
         </div>
       </BrowserRouter>
